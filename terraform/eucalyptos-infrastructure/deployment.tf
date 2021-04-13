@@ -18,7 +18,7 @@ resource "upcloud_network" "sdn_network" {
 
   ip_network {
     address = "10.0.0.0/24"
-    dhcp    = false
+    dhcp    = true
     family  = "IPv4"
   }
 }
