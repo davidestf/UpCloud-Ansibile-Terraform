@@ -2,7 +2,7 @@
 
 Terraform 
 
-Deployment: Loadbalancer and 2 X Webservers connected throught SDN 
+Deployment: Loadbalancer and 2 X Webservers connected throught SDN using Debian template
 
 Ansibile:
 
