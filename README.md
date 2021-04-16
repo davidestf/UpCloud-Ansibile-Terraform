@@ -2,7 +2,7 @@
 
 Terraform 
 
-Deployment: Loadbalancer 2 X Webservers and Database connected throught SDN 
+Deployment: Loadbalancer and 2 X Webservers connected throught SDN 
 
 Ansibile:
 
