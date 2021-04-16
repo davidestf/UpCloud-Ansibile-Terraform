@@ -5,9 +5,9 @@
 #privatest.org
  # remote_user: root
   become: true
-  vars:
-hostname: ubun    
-servername: ubun
+#  vars:
+#hostname: ubun    
+#servername: ubun
 # ssh_keys:
  #          -  ssh-rsa AAAA..
 
