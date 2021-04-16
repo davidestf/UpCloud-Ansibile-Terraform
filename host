@@ -1,0 +1,12 @@
+[loadbalance]
+ansible_host=194.62.96.22
+
+[webserver001]
+ansible_host=194.62.98.74
+
+
+[webserver002]
+ansible_host=194.62.98.73
+
+[database]
+ansible_host=194.62.98.75
