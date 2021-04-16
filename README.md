@@ -1,9 +1,9 @@
 # Ansibile-Terraform
 
 Terraform 
-Deployment: Loadbalancer 2 X Webservers and Database connected throught SDN
+Deployment: Loadbalancer 2 X Webservers and Database connected throught SDN 
 
-
-Ansible
+chmod +x install.sh
+./install.sh
 
  
