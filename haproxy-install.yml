@@ -15,12 +15,7 @@
      template:
        src: haproxy.cfg
        dest: "/etc/haproxy/haproxy.cfg"
-#       owner: root
-#       group: root
-#       mode: 0600
-#     tags:
-#       - haproxy
-#      - restart haproxy
+
    - name: "start service of haproxy"
      service:
        name: "haproxy"
