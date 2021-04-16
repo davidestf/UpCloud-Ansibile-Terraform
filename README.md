@@ -12,7 +12,7 @@ To make everything work you need:
 
 Install UpCloud Terraform/Ansible 
 
-add your SSH_KEY inside the file deployment.tf
+add your SSH_KEY inside the file deployment.tf "find and replace $sshkey"
 
 Give the execution permission.
 
