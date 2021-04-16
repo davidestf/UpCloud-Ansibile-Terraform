@@ -6,7 +6,7 @@ Deployment: Loadbalancer and 2 X Webservers connected throught SDN using Debian 
 
 Ansibile:
 
-Install firewall , webserevr and Haproxy 
+Install firewall , NGINX webserver and Haproxy 
 
 To make everything work you need:
 
