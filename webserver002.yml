@@ -1,0 +1,47 @@
+
+---
+- name: Webserver installation
+  hosts: webserver002
+#privatest.org
+ # remote_user: root
+  become: true
+#  vars:
+#hostname: ubun    
+#servername: ubun
+# ssh_keys:
+ #          -  ssh-rsa AAAAB3NzaC1yc2EAA[...]1SLB0d7z ds@eclipse
+
+
+  tasks:
+    - name: Install UFW
+      apt:
+       name: ufw
+       state: present
+    - name: Setup rules
+      command: "{{ item }}"
+      with_items:
+        - ufw default deny incoming
+        - ufw allow ssh
+        - ufw allow http
+        - ufw allow https
+        - ufw --force enable
+
+    - name: nginx
+      apt: 
+       name: nginx
+       state: present
+
+    - name: Delete content & directory
+      file:
+       state: absent
+       path: "/var/www/html/index.nginx-debian.html"
+        
+    - name: "copying the web pages"
+      template:
+       src: "index.htm"
+       dest: "/var/www/html/index.htm"
+
+    - name: "start nginx"
+      service:
+       name: "nginx"
+       state: started
