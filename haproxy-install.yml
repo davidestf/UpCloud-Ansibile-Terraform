@@ -2,14 +2,8 @@
 - name: install haproxy
 
   hosts: loadbalancer
-#privatest.org
- # remote_user: root
   become: true
-#  vars:
-#hostname: ubun    
-#servername: ubun
-# ssh_keys:
- #          -  ssh-rsa AAAAB3NzaC1yc2EAA[...]1SLB0d7z ds@eclipse
+
 
   tasks:
    - name: install haproxy
