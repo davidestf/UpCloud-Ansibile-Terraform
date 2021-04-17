@@ -5,28 +5,28 @@ variable "ssh_private_key_path" {
 
 
 variable "hostname-loadbalancer" {
-  default     = "loadbalancer.test.com"
+  default     = "loadbalancer.finaltest.com"
   type        = string
 }
 
 variable "hostname-webserver001" {
-  default     = "webserver001.test.com"
+  default     = "webserver001.finaltest.com"
   type        = string
 }
 
 variable "hostname-webserver002" {
-  default     = "webserver002.test.com"
+  default     = "webserver002.finaltest.com"
   type        = string
 }
 
 
 variable "upcloud_zone" {
-  default     = "es-mad1"
+  default     = "uk-lon1"
   type        = string
 }
 
 
 variable "hostname_SDN" {
-  default     = "test.com Private Network"
+  default     = "finaltest.com Private Network"
   type        = string
 }
