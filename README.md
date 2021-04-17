@@ -17,16 +17,14 @@ To make everything work you need:
 -Configuration variables file:
 
 ssh_private_key_path: 	Local path to a SSH private key.
-hostname: 	Server hostname
-upcloud_zone: 	UpCloud zone to use ex. "es-mad1".GET  /1.3/zone  
-hostname_SDN: SDN hostname
+hostname: 	Server hostname.
+upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  
+hostname_SDN: SDN hostname/
 
 -Give the execution permission.
 
 chmod +x install.sh
-
 then run it:
-
 ./install.sh
 
  
