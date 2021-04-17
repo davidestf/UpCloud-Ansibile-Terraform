@@ -31,8 +31,8 @@ resource "upcloud_network" "sdn_network" {
 #loadbalancer
 
  resource "upcloud_server" "server1" {
-     hostname = "loadbalance.project.com"
-     zone = "es-mad1"
+     hostname = var.hostname-loadbalancer
+     zone = var.upcloud_zone
      plan = "1xCPU-1GB"
      
 template {
@@ -59,9 +59,7 @@ network_interface {
 
 login {
     user = "root"
-    keys = [
-      "ssh-rsa $sshkey",
-    ]
+    keys = [ chomp(file(var.ssh_private_key_path))]
     create_password = true
     password_delivery = "email"
   }
@@ -74,8 +72,8 @@ login {
 #Webserver1
 
  resource "upcloud_server" "server2" {
-     hostname = "webserver.project.com"
-     zone = "es-mad1"
+     hostname = var.hostname-webserver001
+     zone = var.upcloud_zone
      plan = "1xCPU-1GB"
      
 template {
@@ -102,20 +100,19 @@ network_interface {
 
 login {
     user = "root"
-    keys = [
-      "ssh-rsa $sshkey",
-    ]
+    keys = [ chomp(file(var.ssh_private_key_path))]
     create_password = true
     password_delivery = "email"
   }
 }
 
 
+
 #Webserver2
 
  resource "upcloud_server" "server3" {
-     hostname = "webserver2.project.com"
-     zone = "es-mad1"
+     hostname = var.hostname-webserver002
+     zone = var.upcloud_zone
      plan = "1xCPU-1GB"
      
 template {
@@ -142,9 +139,7 @@ network_interface {
 
 login {
     user = "root"
-    keys = [
-      "ssh-rsa $sshkey",
-    ]
+    keys = [ chomp(file(var.ssh_private_key_path))]
     create_password = true
     password_delivery = "email"
   }
