@@ -12,15 +12,16 @@ Install firewall , NGINX webserver and Haproxy
 
 To make everything work you need:
 
-Install UpCloud Terraform/Ansible 
+-Install UpCloud Terraform/Ansible 
 
-Configuration variables file:
+-Configuration variables file:
+
 ssh_private_key_path: 	Local path to a SSH private key.
 hostname: 	Server hostname
 upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  list of available zones API: GET  /1.3/zone  
 hostname_SDN: SDN hostname
 
-Give the execution permission.
+-Give the execution permission.
 
 chmod +x install.sh
 
