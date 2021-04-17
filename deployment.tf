@@ -16,8 +16,8 @@ provider "upcloud"  {
 
 # create SDN private network with DHCP enabled on 10.0.0.0/24
 resource "upcloud_network" "sdn_network" {
-  name = "project.com Private Network"
-  zone = "es-mad1"
+  name = var.hostname_SDN
+  zone = var.upcloud_zone
 
   ip_network {
     address = "10.0.0.0/24"
