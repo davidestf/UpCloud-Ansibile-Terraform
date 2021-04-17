@@ -17,8 +17,11 @@ To make everything work you need:
 -Configuration variables file:
 
 ssh_private_key_path: 	Local path to a SSH private key.
+
 hostname: 	Server hostname.
+
 upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  
+
 hostname_SDN: SDN hostname/
 
 -Give the execution permission.
