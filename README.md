@@ -10,9 +10,13 @@ Ansibile:
 Install firewall , NGINX webserver and Haproxy  
 
 
+
+
 To make everything work you need:
 
 -Install UpCloud Terraform/Ansible 
+
+
 
 -Configuration variables file:
 
@@ -23,6 +27,8 @@ hostname: 	Server hostname.
 upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  
 
 hostname_SDN: SDN hostname/
+
+
 
 -Give the execution permission.
 
