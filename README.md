@@ -16,7 +16,7 @@ Install UpCloud Terraform/Ansible
 
 Configuration variables file:
 ssh_private_key_path: 	Local path to a SSH private key.
-upcloud_zone: 	UpCloud zone to use ex. "uk-lon1".  list of available zones API: GET  /1.3/zone  
+upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  list of available zones API: GET  /1.3/zone  
 hostname: 	Server hostname
 
 Give the execution permission.
