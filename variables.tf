@@ -1,3 +1,9 @@
+variable "ssh_private_key_path" {
+  default     = "/home/ds/.ssh/id_rsa.pub"
+  type        = string
+}
+
+
 variable "hostname-loadbalancer" {
   default     = "loadbalancer.test.com"
   type        = string
@@ -14,15 +20,13 @@ variable "hostname-webserver002" {
 }
 
 
-
-variable "ssh_private_key_path" {
-  default     = "/home/user/.ssh/id_rsa.pub"
-  type        = string
-}
-
- 
 variable "upcloud_zone" {
   default     = "es-mad1"
   type        = string
 }
 
+
+variable "hostname_SDN" {
+  default     = "test.com Private Network"
+  type        = string
+}
