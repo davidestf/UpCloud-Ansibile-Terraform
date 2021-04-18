@@ -1,5 +1,5 @@
 variable "ssh_private_key_path" {
-  default     = "/home/ds/.ssh/id_rsa.pub"
+  default     = "/home/$USER/.ssh/id_rsa.pub"
   type        = string
 }
 
