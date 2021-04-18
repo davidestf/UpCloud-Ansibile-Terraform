@@ -5,17 +5,17 @@ variable "ssh_private_key_path" {
 
 
 variable "hostname-loadbalancer" {
-  default     = "loadbalancer.finaltest.com"
+  default     = "loadbalancer.mytest.com"
   type        = string
 }
 
 variable "hostname-webserver001" {
-  default     = "webserver001.finaltest.com"
+  default     = "webserver001.mytest.com"
   type        = string
 }
 
 variable "hostname-webserver002" {
-  default     = "webserver002.finaltest.com"
+  default     = "webserver002.mytest.com"
   type        = string
 }
 
