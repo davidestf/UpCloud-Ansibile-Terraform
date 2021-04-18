@@ -27,6 +27,6 @@ variable "upcloud_zone" {
 
 
 variable "hostname_SDN" {
-  default     = "finaltest.com Private Network"
+  default     = "mytest.com Private Network"
   type        = string
 }
