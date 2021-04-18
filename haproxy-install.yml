@@ -1,22 +1,25 @@
 ---
 - name: install haproxy
-
   hosts: loadbalancer
   become: true
-
-
+  
   tasks:
-   - name: install haproxy
-     apt:
+    - name: Update and upgrade apt packages
+      apt:
+       update_cache: yes
+       upgrade: "yes" 
+       
+    - name: install haproxy
+      apt:
        name: haproxy
        state: present
 
-   - name: Generate ha-proxy configuration file
-     template:
+    - name: Generate ha-proxy configuration file
+      template:
        src: haproxy.cfg
        dest: "/etc/haproxy/haproxy.cfg"
 
-   - name: "start service of haproxy"
-     service:
+    - name: "start service of haproxy"
+      service:
        name: "haproxy"
        state: restarted
