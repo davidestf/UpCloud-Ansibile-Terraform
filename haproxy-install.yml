@@ -26,7 +26,7 @@
        name: haproxy
        state: present
 
-    - name: Generate ha-proxy configuration file
+    - name: Copy ha-proxy configuration file
       template:
        src: haproxy.cfg
        dest: "/etc/haproxy/haproxy.cfg"
