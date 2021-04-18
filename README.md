@@ -18,7 +18,7 @@ To make everything work you need:
 
 
 
-Variables       |    Configuration variables :
+-Variables       |    Configuration variables :
 
 
 ssh_private_key_path:  Local path to your SSH private key.
