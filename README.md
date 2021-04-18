@@ -20,13 +20,13 @@ To make everything work you need:
 
 -Configuration variables file:
 
-ssh_private_key_path: 	Local path to your SSH private key.
+ssh_private_key_path: | Local path to your SSH private key.
 
-hostname: 	Server hostname.
+hostname: |	Server hostname.
 
-upcloud_zone: 	UpCloud zone to use ex. "es-mad1".  
+upcloud_zone: |	UpCloud zone to use ex. "es-mad1".  
 
-hostname_SDN: SDN hostname/
+hostname_SDN: | SDN hostname
 
 
 
