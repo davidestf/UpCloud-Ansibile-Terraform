@@ -21,7 +21,7 @@ To make everything work you would need:
 -Variables       |    Configuration variables :
 
 
-ssh_private_key_path:  Local path to your SSH private key.
+*ssh_private_key_path:  Local path to your SSH private key.
 
 hostname:              Server hostname.
 
