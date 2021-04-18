@@ -18,7 +18,7 @@ To make everything work you would need:
 
 
 
--Variables       |    Configuration variables :
+-Variables       |    Configuration variables : file(variables.tf)
 
 
 *ssh_private_key_path:  Local path to your SSH private key.
