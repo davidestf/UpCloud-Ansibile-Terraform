@@ -1,18 +1,18 @@
 ## Ansibile-Terraform UpCloud Loadbalancer
 
-##Terraform 
+## Terraform 
 
 Deployment: Loadbalancer and 2 X Webservers connected throught SDN using Debian template
 
 
-##Ansibile:
+## Ansibile:
 
 Upgrade the systems, Install the firewall , NGINX webserver and Haproxy  
 
 
 
 
-##To make everything work you would need:
+## To make everything work you would need:
 
 -Install UpCloud Terraform/Ansible 
 ```
