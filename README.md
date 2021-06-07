@@ -26,7 +26,7 @@ ssh_private_key_path:  Local path to your SSH private key.
 
 hostname:              Server hostname.
 
-upcloud_zone:         UpCloud zone to use ex. "es-mad1".  
+upcloud_zone:          UpCloud zone to use ex. "es-mad1".  
 
 hostname_SDN:          SDN hostname
 ```
