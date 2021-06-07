@@ -14,10 +14,10 @@ Upgrade the systems, Install the firewall , NGINX webserver and Haproxy
 
 ## To make everything work you would need:
 
--Install UpCloud Terraform/Ansible 
-```
--Variables       |    Configuration variables : file(variables.tf)
+# Install UpCloud Terraform/Ansible 
 
+# Variables       |    Configuration variables : file(variables.tf)
+```
 *ssh_private_key_path:  Local path to your SSH private key.
 
 hostname:              Server hostname.
