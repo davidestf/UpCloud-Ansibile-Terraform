@@ -16,9 +16,13 @@ Upgrade the systems, Install the firewall , NGINX webserver and Haproxy
 
 ## Install UpCloud Terraform/Ansible 
 
-## Variables       |    Configuration variables : file(variables.tf)
+and
+
+## Configure the variables 
+
+## Variables       | |   file(variables.tf)
 ```
-*ssh_private_key_path:  Local path to your SSH private key.
+ssh_private_key_path:  Local path to your SSH private key.
 
 hostname:              Server hostname.
 
