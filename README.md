@@ -20,7 +20,7 @@ and
 
 ## Configure the variables 
 
-## Variables       | |   file(variables.tf)
+## Variables       |**** |   file(variables.tf)
 ```
 ssh_private_key_path:  Local path to your SSH private key.
 
