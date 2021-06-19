@@ -1,4 +1,4 @@
-# Ansibile-Terraform UpCloud Loadbalancer
+# Deploy Ansibile-Terraform UpCloud Loadbalancer
 
 ## Terraform 
 
@@ -13,6 +13,8 @@ Upgrade the systems, Install the firewall , NGINX webserver and Haproxy
 
 
 # To make everything work you would need:
+
+## - SignUp to UpCloud . com 
 
 ## - Install UpCloud Terraform/Ansible 
 
