@@ -14,7 +14,7 @@ Upgrade the systems, Install the firewall , NGINX webserver and Haproxy
 
 # To make everything work you would need:
 
-## - SignUp to UpCloud . com 
+## - UpCloud Account
 
 ## - Install UpCloud Terraform/Ansible 
 
