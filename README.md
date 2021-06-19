@@ -33,7 +33,10 @@ upcloud_zone:          UpCloud zone to use ex. "es-mad1".
 hostname_SDN:          SDN hostname
 ```
 
-
+Clone repository
+```
+git clone https://github.com/dstf/UpCloud-Ansibile-Terraform.git
+```
 -Give the execution permission.
 ```
 chmod +x install.sh
