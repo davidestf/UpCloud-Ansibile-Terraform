@@ -14,11 +14,11 @@ Upgrade the systems, Install the firewall , NGINX webserver and Haproxy
 
 # To make everything work you would need:
 
-## Install UpCloud Terraform/Ansible 
+## - Install UpCloud Terraform/Ansible 
 
-and
+## and
 
-## Configure the variables 
+## - Configure the variables 
 
 ## Variables       |**** |   file(variables.tf)
 ```
