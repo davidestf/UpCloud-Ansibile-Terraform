@@ -46,5 +46,5 @@ then run it:
 ```
 ./install.sh
 ```
-![](https://project001.06a7f2c2-5c56-40d7-aded-6455af08391b.es-mad1.upcloudobjects.com/github/loadbalancer.gif)
+![](https://project001.06a7f2c2-5c56-40d7-aded-6455af08391b.es-mad1.upcloudobjects.com/project001/github/loadbalancer.gif)
  
